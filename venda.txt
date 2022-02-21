@@ -1,0 +1,2 @@
+Banana|5|Frutas|Cleber|Marcos|3|21/02/22
+Morango|2|Frutas|Paulo|Roberta|2|21/02/22
