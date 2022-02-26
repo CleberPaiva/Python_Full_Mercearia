@@ -1,3 +1,3 @@
-Laranja|1.99|Frutas|100
-Coxinha da asa|10.45|Carnes|20
-Cebola|2.99|Verduras|45
+Laranja|3|Frutas|88
+Coxinha da asa|10|Carnes|20
+Cebola|2|Verduras|45

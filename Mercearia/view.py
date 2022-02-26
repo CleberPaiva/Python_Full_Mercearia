@@ -153,30 +153,30 @@ if __name__ == "__main__":
                 decidir = int(input("Digite 1 para cadastrar um funcionario\n"
                                     "Digite 2 para remover um funcionario\n"
                                     "Digite 3 para alterar um funcionario\n"
-                                    "Digite 4 para mostrar funciorios\n"
+                                    "Digite 4 para mostrar funcionarios\n"
                                     "Digite 5 para sair\n"))
 
                 if decidir == 1:
-                    clt = input("Digite a clt do funcionario: \n")
+                    ctps = input("Digite a CTPS do funcionario: \n")
                     nome = input("Digite o nome do funcionario: \n")
                     telefone = input("Digite o telefone do funcionario: \n")
                     cpf = input("Digite o cpf do funcionario: \n")
                     email = input("Digite o email do funcionario: \n")
                     endereco = input("Digite o endereço do funcionario: \n")
 
-                    cat.cadastrarFuncionario(clt, nome, telefone, cpf, email, endereco)
+                    cat.cadastrarFuncionario(ctps, nome, telefone, cpf, email, endereco)
                 elif decidir == 2:
                     funcionario = input("Digite o funcionario que deseja remover: \n")
                     cat.removerFuncionario(funcionario)
                 elif decidir == 3:
                     nomeAlterar = input("Digite o nome do funcionario que deseja alterar: \n")
-                    novoClt = input("Digite a nova clt do funcionario: \n")
+                    novoCtps = input("Digite a nova CTPS do funcionario: \n")
                     novoNome = input("Digite o novo nome do funcionario: \n")
                     novoTelefone = input("Digite o novo telefone do funcionario: \n")
                     novoCpf = input("Digite o novo cpf do funcionario: \n")
                     novoEmail = input("Digite o novo email do funcionario: \n")
                     novoEndereco = input("Digite o novo endereço do funcionario: \n")
-                    cat.alterarFuncionario(nomeAlterar, novoClt, novoNome, novoTelefone, novoCpf, novoEmail,
+                    cat.alterarFuncionario(nomeAlterar, novoCtps, novoNome, novoTelefone, novoCpf, novoEmail,
                                            novoEndereco)
 
                 elif decidir == 4:

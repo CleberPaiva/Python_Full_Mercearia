@@ -166,7 +166,7 @@ class ControllerVenda:
             if existe == False:
                 if i.produto.nome == nomeProduto:
                     existe = True
-                    if i.quantidade >= quantidadeVendida:
+                    if int(i.quantidade) >= int(quantidadeVendida):
                         quantidade = True
                         i.quantidade = int(i.quantidade) - int(quantidadeVendida)
 
@@ -430,10 +430,10 @@ class ControllerFuncionario:
             print("Lista de funcionarios vazia")
 
         for i in funcionario:
-            print("========Funcionario==========")
+            print("======== Funcionario ==========")
             print(f"Nome: {i.nome}\n"
                   f"Telefone: {i.telefone}\n"
                   f"Email: {i.email}\n"
                   f"Endereço: {i.endereco}\n"
                   f"CPF: {i.cpf}\n"
-                  f"CLT: {i.clt}\n")
+                  f"CTPS: {i.ctps}\n")
