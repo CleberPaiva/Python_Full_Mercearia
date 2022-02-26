@@ -9,9 +9,8 @@ def criarArquivos(*nome):
 
 
 criarArquivos(
-    "categoria.txt", "clientes.txt",
-    "estoque.txt", "fornecedores.txt",
-    "funcionarios.txt", "venda.txt")
+    "categoria.txt", "clientes.txt",     "estoque.txt", 
+    "fornecedores.txt", "funcionarios.txt", "venda.txt")
 
 
 

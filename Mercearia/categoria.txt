@@ -1,2 +1,4 @@
 Frutas
 Verduras
+Carnes
+Legumes
